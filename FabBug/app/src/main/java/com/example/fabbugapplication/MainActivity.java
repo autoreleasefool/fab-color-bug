@@ -38,7 +38,7 @@ public class MainActivity
         clickableFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-;                setFloatingActionButtonColors(clickableFab,
+                setFloatingActionButtonColors(clickableFab,
                         getResources().getColor(R.color.purple),
                         getResources().getColor(R.color.purple_dark));
             }
