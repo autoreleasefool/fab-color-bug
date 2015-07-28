@@ -1,7 +1,7 @@
 # fab-color-bug
 Demonstrates a bug in the Android Design Support Library with the FloatingActionButton when used with API 22. Setting the color of a `FloatingActionButton` with multiple `FloatingActionButton` views on the screen causes all instances to be displayed with the same color. This effect can also be seen by changing the color in the on click of *one* of the `FloatingActionButton`, then tapping a different button, which causes it to become the same color as the other, without calling any of the same code.
 
-The issue has been reported to the Android issue tracker [here](https://code.google.com/p/android/issues/detail?id=181440).
+The issue has been reported to the Android issue tracker. It can be found under [ticket 181440](https://code.google.com/p/android/issues/detail?id=181440).
 
 To reproduce:
 
